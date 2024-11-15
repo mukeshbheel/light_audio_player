@@ -26,13 +26,13 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen> {
               "https://images.unsplash.com/photo-1641753543685-268866ef4c6d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")),
     ),
     AudioSource.uri(
-      Uri.parse('asset:///asset/audio/tere_bin.mp3'),
+      Uri.parse('https://s3.castbox.fm/f8/c4/22/30819b4331947812baafe151b4.mp3'),
       tag: MediaItem(
-          id: '1',
-          title: 'Kyun Aaj Kal',
-          artist: 'Sonu Nigam',
+          id: 'h1-1',
+          title: 'Harry Potter - The Boy Who Lived',
+          artist: 'Leisure',
           artUri: Uri.parse(
-              "https://images.unsplash.com/photo-1465984111739-03a1ee4647a0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")),
+              "https://i1.sndcdn.com/artworks-000311122212-04yxy3-t500x500.jpg")),
     ),
   ]);
 
